@@ -39,7 +39,7 @@ class SSDPResponse(object):
             **self.__dict__)
 
 
-def discover(service, timeout=5, retries=1, mx=3):
+def discover(service, timeout=10, retries=3, mx=3):
     group = ("239.255.255.250", 1900)
     message = "\r\n".join([
         'M-SEARCH * HTTP/1.1',

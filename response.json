@@ -1,0 +1,18 @@
+{
+  'data': {
+    'clients': [
+      {
+        'attributes': {
+          'name': 'XXX',
+          'token': '16800314'
+        },
+        'connectTime': 1650027196549,
+        'deviceName': 'XXX',
+        'id': 'f6916e9-96ac-4467-88fd-ad63a511ecef',
+        'isHost': False
+      }
+    ],
+    'id': 'f6916e9-96ac-4467-88fd-ad63a511ecef'
+  },
+  'event': 'ms.channel.connect'
+}
